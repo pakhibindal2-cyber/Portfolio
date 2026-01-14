@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8f6f2;
+  color: #111;
+}
+
+.hero {
+  background: #9e1b1b;
+  color: white;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+
+.section {
+  padding: 60px 10%;
+}
+
+.section.dark {
+  background: #9e1b1b;
+  color: white;
+}
